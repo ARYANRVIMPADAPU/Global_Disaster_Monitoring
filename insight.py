@@ -129,7 +129,7 @@ def main():
             wordcloud = WordCloud(width=800, height=500, background_color='white').generate(' '.join(titles))
 
             # Display the word cloud using Streamlit
-            st.image(wordcloud.to_array(), use_container_width=True)
+            st.image(wordcloud.to_array(), use_container_width=auto)
 
 
 
